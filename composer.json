@@ -1,0 +1,19 @@
+{
+    "name": "undercloud/qode",
+    "description": "A PHP library for generating QR codes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "undercloud"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Undercloud\\Qode\\": "src/Undercloud/Qode/"
+        }
+    }
+}
